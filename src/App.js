@@ -7,7 +7,7 @@ function App() {
   return (
     <Router>
       <Routes>
-        <Route path="/wishing-page" element={<WishingPage />} />
+        <Route path="/" element={<WishingPage />} />
         <Route path="/result/:name" element={<ResultPage />} />
       </Routes>
     </Router>

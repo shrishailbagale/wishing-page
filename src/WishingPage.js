@@ -24,7 +24,7 @@ const WishingPage = () => {
             style={styles.input}
           />
           <button type="submit" style={styles.button}>
-            Generate Wish
+            Generate
           </button>
         </div>
       </form>
@@ -40,7 +40,7 @@ const styles = {
     display: "flex",
     flexDirection: "column",
     justifyContent: "space-between",
-    padding: "20px",
+    padding: "0px",
     borderRadius: "10px",
     margin: "0 auto", // Center the container horizontally
     width: "100%", // Ensure it takes full width on smaller screens

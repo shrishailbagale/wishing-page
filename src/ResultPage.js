@@ -34,7 +34,7 @@ const ResultPage = () => {
 const styles = {
   container: {
     textAlign: 'center',
-    padding: '20px',
+    padding: '0px',
     maxWidth: '400px',
     margin: '0 auto',
     backgroundColor: '#f9f9f9',
@@ -56,7 +56,7 @@ const styles = {
   },
   greeting: {
     position: 'absolute',
-    top: '20px',
+    top: '10px',
     left: '50%',
     transform: 'translateX(-50%)',
     fontSize: '24px',
